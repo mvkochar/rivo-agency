@@ -1,0 +1,53 @@
+.header {
+    margin-left: 72px;
+    margin-right: 72px;
+    padding-top: 11px;
+    padding-bottom: 19px;
+    border-bottom: #D8D7DB;
+}
+
+.header-nav {
+    list-style-type: none;
+    gap: 32px;
+
+    li {
+        font-size: 16px;
+        color: #1A1A1A;
+
+        a {
+            color: #1A1A1A;
+        }
+    }
+
+    .projects-count {
+        font-size: 10px;
+    }
+
+    .carees-hot {
+        width: 23px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1.54px;
+        padding-right: 1.4px;
+        background-color: #FDDD0A;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #0C0F1E;
+    }
+
+    .nav-drop-btn {
+        margin-left: 4px;
+    }
+}
+
+.header .burger-menu  {
+    margin-left: 52px;
+    gap: 16px; 
+}
+
+.header .burger-menu-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
