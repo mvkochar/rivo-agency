@@ -30,7 +30,7 @@
 .home-main-action {
     margin-top: 92.38px;
     padding-left: 255px;
-    padding-right: 72px;
+    padding-right: 72px; 
 }
 
 .home-main-social {
@@ -72,6 +72,8 @@
     .scroll-btn {
         width: 72px;
         height: 72px;
+        margin-top: -92px;
+        margin-left: 19px;
         background-color: #1A1A1A;
         border: 1px solid #1A1A1A;
         border-radius: 100%;
@@ -83,3 +85,143 @@
     }
 }
 
+.home-about {
+    margin-top: 140px;
+    margin-left: 255px;
+    background-color: #EEEEF0;
+}
+
+.home-bl-title {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+
+.home-about-box {
+    margin-top: 52px;
+    gap: 30px;
+}
+
+.home-about .about-content-title {
+    font-size: 24px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+
+.home-about .about-content-text {
+    max-width: 689px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #818181;
+}
+
+.home-about-profile {
+    margin-top: 32px;
+    gap: 16.32px;
+} 
+
+.home-about-rating {
+    gap: 4.5px;
+}
+
+.home-about-reviews {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.home-services {
+    margin-top: 140px;
+}
+
+.home-services-title {
+    margin-left: 255px;
+}
+
+.home-services-box {
+    margin-top: 52px;
+    margin-left: 219px;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.home-services-item {
+    width: 1446px;
+    padding-top: 52px;
+    padding-right: 240px;
+    border-top: 1px solid #D8D7DB;
+
+    .services-item-title {
+        width: 304px;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 1.5;
+        color: #1A1A1A;
+
+        sup {
+          margin-right: 10px;  
+          font-weight: 500;
+          font-size: 17px;
+          color: #818181;  
+        }
+
+        span {
+            margin-left: 40px;
+        }
+    }
+
+    .services-item-desc {
+        max-width: 450px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 1.5;
+        color: #818181;
+    }
+}
+
+.home-services-item:last-child {
+    padding-bottom: 52px;
+    border-bottom: 1px solid #D8D7DB;
+}
+
+.home-expertise {
+    margin-top: 156px;
+    margin-left: 255px;
+    margin-right: 255px;
+}
+
+.home-expertise-box {
+    margin-top: 84px;
+    flex-direction: column;
+    gap: 63px;
+}
+
+.home-expertise-item {
+    .expertise-item-title {
+        font-weight: 600;
+        font-size: 42px;
+        color: #1A1A1A;
+    }
+
+    .expertise-item-num {
+        font-weight: 500;
+        font-size: 17px;
+        color: #818181;
+    }
+}
+
+.home-projects {
+    margin-top: 314px;
+    margin-left: 255px;
+}
+
+.home-projects-box {
+    margin-top: 52px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 52px;
+}
