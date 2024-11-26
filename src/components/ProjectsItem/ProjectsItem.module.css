@@ -1,0 +1,61 @@
+.projects_item,
+.projects_item_content {
+    width: 690px;
+    height: 380px;
+}
+
+.projects_item {
+    position: relative;
+}
+
+.projects_item_content {
+    padding-top: 287px;
+    padding-left: 30px;
+    background: url("/public/images/mask.png") no-repeat;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.projects_item_year {
+    font-family: "RoadRadio-Bold";
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.projects_item_title {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.projects_item_discover {
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background: #FDDD0A;
+    border-radius: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 146px;
+    bottom: 65px;
+
+    a {
+        display: block;
+        font-family: "RoadRadio-Bold";
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+}
+
+.projects_item:hover .projects_item_discover {
+    opacity: 1;
+}

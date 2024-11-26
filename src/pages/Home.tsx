@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Home.css'
+import { ProjectsItem, ProjectsList } from '../components'
 
 const Home = () => {
     return (
@@ -66,7 +67,7 @@ const Home = () => {
                             <img src="/images/arrow-down2.png" alt="arrow-down2" width={12} />
                         </button>
                     </div>
-                    <a href="" className="d-b">
+                    <a href="" className="d-b home-main-contact">
                         <img src="/images/contact-link.svg" alt="contact-link" width={90} />
                     </a>
                 </div>
@@ -189,7 +190,85 @@ const Home = () => {
             <section className='home-projects'>
                 <h2 className="title home-bl-title">Projects</h2>
                 <div className="home-projects-box d-f">
-
+                     {
+                        ProjectsList.map((project)=> {
+                            return (
+                                <ProjectsItem
+                                    key={project.id}
+                                    id={project.id}
+                                    image={project.image}
+                                    year={project.year}
+                                    title={project.title}
+                                />
+                            )
+                        })
+                     }  
+                </div>
+                <div className="home-projects-more d-f">
+                    <h4 className="title projects-more-title">Show more cases</h4>
+                    <button type="button" className='btn-clear d-b'>
+                        <img src="/images/arrow_icon.png" alt="arrow_icon" />
+                    </button>
+                </div>
+            </section>
+            <section className='home-reviews'>
+                <h2 className="title home-bl-title">Reviews</h2>
+                <div className="home-reviews-content d-f"> 
+                    <div className="home-reviews-video"><img src="/images/reviews-video.png" alt="reviews-video" /></div>
+                    <div>
+                        <div className="home-reviews-caption d-f jc-sb">
+                            <h4 className="title home-reviews-category">Collective Filmsfotografie</h4>
+                            <div className="home-reviews-num">01</div>
+                        </div>
+                        <h3 className='home-reviews-author'>Charlotte Preisel</h3>
+                        <div className="home-reviews-details d-f align-center">
+                            <div><img src="/images/cloch_logo.svg" alt="cloch_logo" /></div>
+                            <div>
+                                <div className="home-reviews-rating d-f">
+                                    <div><img src="/images/star.png" alt="star" /></div>
+                                    <div><img src="/images/star.png" alt="star" /></div>
+                                    <div><img src="/images/star.png" alt="star" /></div>
+                                    <div><img src="/images/star.png" alt="star" /></div>
+                                    <div><img src="/images/star.png" alt="star" /></div>
+                                </div>
+                                <div className="home-reviews-date">20.12.2020</div>
+                            </div>
+                            <a href="" className="d-b"><img src="/images/linkedIn_icon.png" alt="linkedIn_icon" /></a>   
+                        </div>
+                        <div className="arrow-actions d-f">
+                            <button><img src="/images/prev.png" alt="prev" /></button>
+                            <button><img src="/images/next.png" alt="next" /></button>
+                        </div>
+                    </div>
+                </div>
+                <progress max={100} value={40}></progress>
+            </section>
+            <section className='home-info'>
+                <h2 className="title home-bl-title">We are Rivo Agency</h2>
+                <div className="home-info-box d-f">
+                    <div><img src="/images/info1.png" alt="info1" /></div>
+                    <div><img src="/images/info2.png" alt="info2" /></div>
+                    <div><img src="/images/info3.png" alt="info3" /></div>
+                     <div className="home-info-statistics d-f">
+                        <dl>
+                            <dt>2010</dt>
+                            <dd>Founded</dd>
+                        </dl>
+                        <dl>
+                            <dt>70+</dt>
+                            <dd>Teammates</dd>
+                        </dl>
+                        <dl>
+                            <dt>237</dt>
+                            <dd>Projects handled</dd>
+                        </dl>
+                        <dl>
+                            <dt>2</dt>
+                            <dd>Development centers</dd>
+                        </dl>
+                     </div>
+                    <div><img src="/images/info4.png" alt="info4" /></div>
+                    <div><img src="/images/info5.png" alt="info5" /></div>
                 </div>
             </section>
         </>

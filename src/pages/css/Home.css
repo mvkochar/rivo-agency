@@ -30,7 +30,7 @@
 .home-main-action {
     margin-top: 92.38px;
     padding-left: 255px;
-    padding-right: 72px; 
+    padding-right: 72px;
 }
 
 .home-main-social {
@@ -58,7 +58,7 @@
 }
 
 .home-main-scroll {
-    
+
     .scroll-title {
         font-weight: 700;
         font-size: 13px;
@@ -85,9 +85,24 @@
     }
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.home-main-contact {
+    transition: all 0.5s ease;
+
+    &:hover {
+        animation: rotate 1s linear infinite;
+    }
+}
+
 .home-about {
-    margin-top: 140px;
-    margin-left: 255px;
+    padding-top: 140px;
+    padding-left: 255px;
+    padding-bottom: 140px;
     background-color: #EEEEF0;
 }
 
@@ -121,7 +136,7 @@
 .home-about-profile {
     margin-top: 32px;
     gap: 16.32px;
-} 
+}
 
 .home-about-rating {
     gap: 4.5px;
@@ -163,10 +178,10 @@
         color: #1A1A1A;
 
         sup {
-          margin-right: 10px;  
-          font-weight: 500;
-          font-size: 17px;
-          color: #818181;  
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 17px;
+            color: #818181;
         }
 
         span {
@@ -224,4 +239,151 @@
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 52px;
+}
+
+.home-projects-box>div:nth-child(2),
+.home-projects-box>div:nth-child(4),
+.home-projects-box>div:nth-child(6) {
+    margin-top: 20px;
+}
+
+.home-projects-more {
+    width: 1440px;
+    margin-top: 52px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid #D8D7DB;
+    justify-content: center;
+    gap: 10px;
+
+    .projects-more-title {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+}
+
+.home-reviews {
+    margin-top: 280px;
+    margin-left: 255px;
+
+    progress {
+        width: 1440px;
+        margin-top: 52px;
+    }
+}
+
+.home-reviews-content {
+    margin-top: 52px;
+    gap: 30px;
+}
+
+.home-reviews-video {
+    flex-shrink: 0;
+}
+
+.home-reviews-caption {
+    width: 684px;
+    align-items: flex-end;
+}
+
+.home-reviews-category {
+    font-size: 15px;
+    line-height: 1.2;
+    color: #818181;
+}
+
+.home-reviews-num {
+    font-weight: 100;
+    font-size: 128px;
+    line-height: 1;
+    color: #D8D7DB;
+}
+
+.home-reviews-author {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 1;
+    color: #1A1A1A;
+}
+
+.home-reviews-details {
+    margin-top: 50px;
+    gap: 16.32px;
+}
+
+.home-reviews-rating {
+    gap: 5.4px;
+}
+
+.home-reviews-date {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #1A1A1A;
+}
+
+.arrow-actions {
+    margin-top: 41px;
+    margin-left: 548px;
+    gap: 30px;
+
+    button {
+        display: block;
+        width: 56px;
+        height: 56px;
+        background-color: transparent;
+        border: 1px solid #D8D7DB;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #FDDD0A;
+            border: none;
+        }
+    }
+}
+
+.home-info {
+    margin-top: 280px;
+    margin-left: 255px;
+}
+
+.home-info-box {
+    margin-top: 52px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.home-info-statistics {
+    width: 450px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    column-gap: 92px;
+    row-gap: 52px;
+    padding-left: 37px;
+    padding-right: 26px;
+
+    dl {
+        font-weight: 600;
+        text-align: center;
+        color: #1A1A1A;
+
+        dt {
+            font-size: 64px;
+            line-height: 1;
+
+        }
+
+        dd {
+            margin-top: 24px;
+            font-size: 16px;
+            line-height: 1;
+        }
+    }
+}
+
+.home-info-box>div:nth-child(5) {
+    margin-top: -77px;
 }
