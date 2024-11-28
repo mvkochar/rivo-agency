@@ -17,7 +17,7 @@ const Header = () => {
                             </button>
                         </li>
                         <li><a href="">Contacts</a></li>
-                        <li><a href="">Carees</a><sup className='carees-hot'>Hot</sup></li>
+                        <li className='d-f'><a href="" className='d-b'>Career</a><sup className='careers-hot'>Hot</sup></li>
                     </ul>
                 </nav>
                 <div className="burger-menu d-f">

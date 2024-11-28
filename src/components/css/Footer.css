@@ -1,0 +1,112 @@
+.footer {
+    padding-top: 72px;
+    padding-bottom: 14px;
+    padding-left: 255px;
+    padding-right: 255px;
+}
+
+.footer-head {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D8D7DB;
+}
+
+.footer-bar {
+    margin-top: 52px;
+    padding-right: 87px;
+}
+
+.footer-list {
+    list-style-type: none;
+
+    li {
+        margin-bottom: 52px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid transparent;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 1;
+        color: #1A1A1A;
+
+        a {
+            color: #1A1A1A;
+        }
+
+        .careers-hot {
+            display: flex;
+            width: 20px;
+            height: 12px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #FDDD0A;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #0C0F1E;
+        }
+
+        .projects-count {
+            display: block;
+            margin-left: 2px;
+            font-size: 10px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+
+    }
+}
+
+.footer-sublist {
+    list-style-type: none;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    position: absolute;
+    top: 68px;
+    width: 603px;
+
+    li {
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 1;
+        color: #818181;
+
+        a {
+            color: #818181;
+
+            &:hover {
+                text-decoration: underline;
+                color: #1A1A1A;
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    margin-top: 72px;
+    padding-top: 14px;
+    border-top: 1px solid #D8D7DB;
+    font-weight: 500;
+    font-size: 17px;
+    color: #3F3F3F;
+
+    a {
+        color: #3F3F3F
+    }
+}
+
+.footer-top-title {
+    margin-right: 10px;
+    color: #1A1A1A;
+}
+
+.footer-top-btn {
+    width: 52px;
+    height: 52px;
+    background-color: #1A1A1A;
+    border-radius: 100%;
+    cursor: pointer;
+}
