@@ -1,0 +1,29 @@
+.blog-tags {
+    max-width: 1386px;
+    margin-top: 52px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 24px;
+}
+
+.blog-tags-btn {
+    display: block;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: transparent url("/public/images/tag.png") no-repeat bottom right;
+    border: 1px solid #D8D7DB;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.blog-tags .tags-btn__active {
+    background-image: url("/public/images/tag_active.png");
+    border-color: #1A1A1A;
+    
+}
