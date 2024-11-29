@@ -1,14 +1,15 @@
 import React from 'react'
 import './css/Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <header className='header d-f jc-sb align-center'>
-            <div><img src="/images/logo.svg" alt="Logo" /></div>
+            <div><Link to='/'><img src="/images/logo.svg" alt="Logo" /></Link></div>
             <div className='d-f'>
                 <nav>
                     <ul className="header-nav d-f">
-                        <li><a href="">Projects</a><sup className='projects-count'>16</sup></li>
+                        <li><Link to="/projects">Projects</Link><sup className='projects-count'>16</sup></li>
                         <li><a href="">Services</a></li>
                         <li>
                             <a href="">Experise</a>
@@ -17,7 +18,7 @@ const Header = () => {
                             </button>
                         </li>
                         <li><a href="">Contacts</a></li>
-                        <li className='d-f'><a href="" className='d-b'>Career</a><sup className='careers-hot'>Hot</sup></li>
+                        <li className='d-f'><Link to="/career" className='d-b'>Career</Link><sup className='careers-hot'>Hot</sup></li>
                     </ul>
                 </nav>
                 <div className="burger-menu d-f">

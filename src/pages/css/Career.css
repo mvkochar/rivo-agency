@@ -1,0 +1,54 @@
+.career-content {
+    margin-top: 52px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.career-content-item {
+    padding-left: 30px;
+    border: 1px solid #D8D7DB;
+
+    .content-item-caption {
+        width: 366px;
+        gap: 10px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+
+    .content-item-about {
+        width: fit-content;
+        padding-left: 4px;
+        padding-right: 4px;
+        background-color: #FDDD0A;
+        font-weight: 600;
+        color: #1A1A1A;
+    }
+
+    .content-item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1;     
+    }
+
+    .content-item-info {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #1A1A1A;
+    }
+
+    .content-item-view {
+        display: block;
+        width: 171px;
+        padding: 25px 34px;
+        border: 1px solid #1A1A1A;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+
+        &:hover {
+            background-color: #FDDD0A;
+        }
+    }
+}
+

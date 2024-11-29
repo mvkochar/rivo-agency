@@ -9,12 +9,15 @@ const Footer = () => {
         <div><img src="/images/logo.svg" alt="Logo" /></div>
       </div>
       <div className="footer-bar d-f jc-sb">
-        <ul className='footer-list'>
+        <ul className='footer-list footer-list-main'>
           <li><a href="">Home</a></li>
           <li><a href="">Who We Are</a></li>
           <li><a href="">Reviews</a></li>
           <li><a href="">Contact</a></li>
-          <li className='d-f'><a href="" className='d-b'>Career</a><sup className='careers-hot'>Hot</sup></li>
+          <li className='d-f'>
+            <a href="" className='d-b'>Career</a>
+            <sup className='careers-hot'>Hot</sup>
+          </li>
           <li><a href="">Blog</a></li>
         </ul>
         <ul className="footer-list">
