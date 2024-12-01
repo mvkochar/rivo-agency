@@ -4,5 +4,7 @@ import Footer from "./Footer"
 import ProjectsItem from "./ProjectsItem/ProjectsItem"
 import ProjectsList from "./ProjectsList"
 import Contacts from "./Contacts"
+import BlogsItem from "./BlogsItem/BlogsItem"
+import PostsList from "./PostsList"
 
-export {Header, Main, Footer, ProjectsItem, ProjectsList, Contacts}
+export { Header, Main, Footer, ProjectsItem, ProjectsList, Contacts, BlogsItem, PostsList }

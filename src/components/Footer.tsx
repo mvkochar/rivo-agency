@@ -82,7 +82,7 @@ const Footer = () => {
       <div className="footer-copyright d-f jc-sb align-center">
         <div className='d-f'>
           <div>2020 &copy; Rivo Agency</div>
-          <div style={{marginLeft: "100px"}}><a href="">Privacy Policy & Term of Use</a></div>
+          <div style={{marginLeft: "100px"}}><Link to="/privacy">Privacy Policy & Term of Use</Link></div>
         </div>
         <div className='d-f align-center'>
           <div className="footer-top-title">Back to Top</div>

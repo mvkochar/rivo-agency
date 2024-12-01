@@ -1,0 +1,32 @@
+.privacy-container {
+    margin-top: 32px;
+    margin-left: 495px;
+    margin-right: 495px;
+}
+
+.privacy-back {
+    gap: 16px;
+
+    .action-link {
+        display: block;
+        margin-top: 1px;
+    }
+
+    .action-name {
+        font-size: 18px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+}
+
+.privacy-content {
+    margin-top: 52px;
+}
+
+.privacy-title {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.3;
+    color: #1A1A1A;
+}
