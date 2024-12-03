@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './ProjectsItem.module.css'
+import { Link } from 'react-router-dom'
 
 type ProjectsItemProps = {
     id: number
@@ -17,7 +18,7 @@ const ProjectsItem = ({id, image, year, title}:ProjectsItemProps) => {
             <h3 className={classes.projects_item_title}>{title}</h3>
         </div>
         <div className={classes.projects_item_discover}>
-            <a href="">Dicover</a>
+            <Link to={`/project/${id}`}>Dicover</Link>
         </div>
     </div>
   )

@@ -17,7 +17,7 @@ const Header = () => {
                                 <img src="/images/arrow-down.png" alt="arrow-down" />
                             </button>
                         </li>
-                        <li><a href="">Contacts</a></li>
+                        <li><Link to="/contact">Contacts</Link></li>
                         <li className='d-f'><Link to="/career" className='d-b'>Career</Link><sup className='careers-hot'>Hot</sup></li>
                     </ul>
                 </nav>

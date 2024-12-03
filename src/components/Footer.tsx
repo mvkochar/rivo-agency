@@ -44,7 +44,7 @@ const Footer = () => {
           <li className='pos-r' style={{ height: "138px" }}>
             <a href="">Industry Expertise</a>
             <ul className="footer-sublist d-f" >
-              <li><a href="">Healthcare & Fitness</a></li>
+              <li><Link to="/expertise-healthcare">Healthcare & Fitness</Link></li>
               <li><a href="">Real Estate</a></li>
               <li><a href="">Custom CRM</a></li>
               <li><a href="">Education & E-learning</a></li>

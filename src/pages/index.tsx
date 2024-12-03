@@ -3,5 +3,8 @@ import Projects from "./Projects";
 import Career from "./Career";
 import Blog from "./Blog";
 import Privacy from "./Privacy";
+import Contact from "./Contact";
+import Project from "./Project";
+import ExpertiseHealthcare from "./ExpertiseHealthcare";
 
-export {Home, Projects, Career, Blog, Privacy}
+export {Home, Projects, Career, Blog, Privacy, Contact, Project, ExpertiseHealthcare}

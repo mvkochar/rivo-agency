@@ -3,6 +3,9 @@ type TProject = {
     image: string
     year: number
     title: string
+    category?: string
+    desctiption?: string
+    bgimage?: string
 }
 
 const ProjectsList:TProject[] = [
@@ -10,7 +13,10 @@ const ProjectsList:TProject[] = [
         id: 0,
         image: '/images/projects/1.png',
         year: 2020,
-        title: 'Rivo CRM'
+        title: 'Rivo CRM',
+        category: "Logistics & Distribution",
+        desctiption: 'Norwegian fireplaces',
+        bgimage: '/images/cover1.png'
     },
     
     {
