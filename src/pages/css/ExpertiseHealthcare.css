@@ -83,7 +83,11 @@
     }
 }
 
-.healthcare-reason {
+.healthcare-reason,
+.healthcare-choose,
+.healthcare-guarantee,
+.healthcare-claim,
+.healthcare-trust {
     margin-top: 140px;
 }
 
@@ -94,4 +98,222 @@
     text-align: center;
     line-height: 1.5;
     color: #5B5B5C;
+}
+
+.healthcare-reason-box {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 32px;
+}
+
+.healthcare-reason-item {
+    width: 450px;
+    height: 195px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: url('/public/images/tag.png') no-repeat bottom right;
+    border: 1px solid #D8D7DB;
+
+    .reason-item-title {
+        font-family: "RoadRadio-Bold";
+        font-size: 24px;
+        line-height: 1.3;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+
+    .reason-item-desc {
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #5B5B5C;
+    }
+
+    &:nth-child(2) {
+        padding-top: 20px;
+    }
+
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+        height: 211px;
+    }
+}
+
+.healthcare-reason-box .reason-item-huge {
+    width: 1410px;
+    height: 169px;
+
+    .reason-item-title {
+        text-align: center;
+    }
+
+    .reason-item-action {
+        width: 193px;
+        margin: 30px auto;
+        margin-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        padding-right: 20px;
+        border: 1px solid #212121;
+
+        .action-name {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 1.2;
+            color: #1A1A1A;
+        }
+
+        .action-link {
+            display: block;
+
+        }
+    }
+}
+
+.healthcare-choose-desc {
+    max-width: 930px;
+    margin: 16px auto;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5B5B5C;
+}
+
+.healthcare-choose-box,
+.healthcare-guarantee-box,
+.healthcare-trust-content {
+    margin-top: 52px;
+}
+
+.healthcare-guarantee-box {
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 52px;
+}
+
+.healthcare-guarantee-item {
+    width: 450px;
+
+    .guarantee-item-num {
+        width: 52px;
+        height: 52px;
+        background-color: #fff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "RoadRadio-Bold";
+        font-weight: 700;
+        font-size: 24px;
+        color: #1A1A1A;
+    }
+
+    .guarantee-item-title {
+        margin-top: 39px;
+        font-size: 24px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+
+    .guarantee-item-desc {
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #5B5B5C;
+    }
+}
+
+.healthcare-claim-quote {
+    max-width: 1014px;
+    margin: 0 auto;
+    padding: 48px 42px;
+    background: url("/public/images/healthcare-claim-quote.png") no-repeat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.healthcare-claim-idea {
+    margin-top: 52px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url("/public/images/tag.png") no-repeat bottom right;
+    border: 1px solid #D8D7DB;
+
+    .claim-idea-title {
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.3;
+        color: #1A1A1A;
+    }
+
+    .claim-idea-action {
+        width: 222px;
+        margin: 30px auto;
+        margin-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        padding-right: 20px;
+        border: 1.5px solid #1A1A1A;
+
+        .action-name {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            color: #1A1A1A;
+        }
+
+        .action-link {
+            display: block;
+        }
+    }
+}
+
+.healthcare-trust-desc {
+    max-width: 690px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5B5B5C;
+}
+
+.healthcare-trust-info {
+    width: 330px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #D8D7DB;
+
+    dl {
+        dt {
+            font-family: "RoadRadio-Bold";
+            font-weight: 400;
+            font-size: 24px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 1.2;
+            color: #1A1A1A;
+        }
+
+        dd {
+            margin-top: 16px;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            line-height: 1.5;
+            color: #5B5B5C;
+        }
+    }
 }
