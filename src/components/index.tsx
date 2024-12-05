@@ -6,5 +6,6 @@ import ProjectsList from "./ProjectsList"
 import Contacts from "./Contacts"
 import BlogsItem from "./BlogsItem/BlogsItem"
 import PostsList from "./PostsList"
+import Reviews from "./Reviews"
 
 export { Header, Main, Footer, ProjectsItem, ProjectsList, Contacts, BlogsItem, PostsList }

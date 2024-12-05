@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/ExpertiseHealthcare.css'
 import { Link } from 'react-router-dom'
+import Reviews from '../components/Reviews'
+import Contact from './Contact'
 
 const ExpertiseHealthcare = () => {
     return (
@@ -213,24 +215,169 @@ const ExpertiseHealthcare = () => {
                         <p className="healthcare-trust-desc">
                             Our company has been working in the field of IT development for 10 years.
                             We have only been working for 3 years in the field with the medical business.
-                            We have cases with good results and receive positive feedback from our clients 
+                            We have cases with good results and receive positive feedback from our clients
                             who have developed their business using our solutions
                         </p>
-                         <div className="healthcare-trust-info">
+                        <div className="healthcare-trust-info">
                             <dl>
                                 <dt>10 years</dt>
                                 <dd>on IT development</dd>
                             </dl>
-                         </div>
-                         <div className="healthcare-trust-info">
+                        </div>
+                        <div className="healthcare-trust-info">
                             <dl>
                                 <dt>3 years</dt>
                                 <dd>on medical business</dd>
                             </dl>
-                         </div>      
+                        </div>
                     </div>
                 </section>
+                <section className='healthcare-expertise'>
+                    <h2 className="title healthcare-bl-title">
+                        Our Healthcare App Expertise / Healthcare Mobile App Developers Services
+                    </h2>
+                    <div className="healthcare-expertise-box d-f">
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise1.png" alt="healthcare-expertise1" /></div>
+                            <h3 className="expertise-item-title title">Telemedicine Platforms</h3>
+                            <p className="expertise-item-desc">
+                                Allow for remote monitoring of patients' health conditions and online
+                                communication between doctors and patients. It will help you save time
+                                and raise the level of customer services
+                            </p>
+                        </div>
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise2.png" alt="healthcare-expertise2" /></div>
+                            <h3 className="expertise-item-title title">Mobile Applications for doctors</h3>
+                            <p className="expertise-item-desc">
+                                It will help to improve treatment coordination and have quick
+                                access to information about medicines
+                            </p>
+                        </div>
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise3.png" alt="healthcare-expertise3" /></div>
+                            <h3 className="expertise-item-title title">ENR/EMR Systems</h3>
+                            <p className="expertise-item-desc">
+                                These systems help you to have a full overview about patience in real time
+                            </p>
+                        </div>
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise4.png" alt="healthcare-expertise4" /></div>
+                            <h3 className="expertise-item-title title">Clinical Management Systems</h3>
+                            <p className="expertise-item-desc">
+                                It will help you to increase efficiency of your business and generate new customers
+                            </p>
+                        </div>
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise5.png" alt="healthcare-expertise5" /></div>
+                            <h3 className="expertise-item-title title">Healthcare data analytics solutions</h3>
+                            <p className="expertise-item-desc">
+                                Its services will help you scale your business, keep in touch with
+                                your customers, discover what they need and win their loyalty
+                            </p>
+                        </div>
+                        <div className='healthcare-expertise-item'>
+                            <div><img src="/images/healthcare-expertise6.png" alt="healthcare-expertise6" /></div>
+                            <h3 className="expertise-item-title title">Laboratory solutions</h3>
+                            <p className="expertise-item-desc">
+                                We can design and develop fast - loading, secure and scalable
+                                that is easily integrated with third - party services
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section className='healthcare-claim'>
+                    <p className="healthcare-claim-quote">
+                        After the big analytics job about your business and with your wishes
+                        we can offer you the best individual decisions. <br />
+                        In our interest to be partners with you, improve your business together
+                        and follow your good results.
+                    </p>
+                    <div className="healthcare-claim-idea">
+                        <h3 className="claim-idea-title title">
+                            Developing IT solutions is a difficult job, but not yours.
+                            If you are <br /> unsure about this service we can talk. It's easy
+                        </h3>
+                        <div className="claim-idea-action d-f jc-sb">
+                            <h4 className="action-name title">Work with us</h4>
+                            <a href="" className="action-link">
+                                <img src="/images/arrow_icon.png" alt="arrow_icon" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section className='healthcare-medical'>
+                    <h2 className="title healthcare-bl-title">Top Medical Solution</h2>
+                    <div className="healthcare-medical-box d-f">
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical1.png" alt="healthcare-medical1" /></div>
+                            <h3 className="title medical-item-title">Drug-interaction <br /> checking</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical2.png" alt="healthcare-medical2" /></div>
+                            <h3 className="title medical-item-title">Patient progress tracking</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical3.png" alt="healthcare-medical3" /></div>
+                            <h3 className="title medical-item-title">Online Bill Payment</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical4.png" alt="healthcare-medical4" /></div>
+                            <h3 className="title medical-item-title">Doctor appointment booking</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical5.png" alt="healthcare-medical5" /></div>
+                            <h3 className="title medical-item-title">Dashboard visualization</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical6.png" alt="healthcare-medical6" /></div>
+                            <h3 className="title medical-item-title">Appointment scheduling</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical7.png" alt="healthcare-medical7" /></div>
+                            <h3 className="title medical-item-title">Video <br /> conferencing</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical8.png" alt="healthcare-medical8" /></div>
+                            <h3 className="title medical-item-title">Integrated EMR/EHR modules</h3>
+                        </div>
+                        <div className="healthcare-medical-item d-f align-center">
+                            <div><img src="/images/healthcare-medical9.png" alt="healthcare-medical9" /></div>
+                            <h3 className="title medical-item-title">Real-time chat for doctors and patients</h3>
+                        </div>
+                    </div>
+                </section>
+                <section className='healthcare-projects'>
+                    <h2 className='title healthcare-bl-title healthcare-projects-title'>Projects</h2>
+                    <div className="helthcare-projects-box d-f">
+                        <div>
+                            <div className="helthcare-project-categories d-f">
+                                <div className="project-categories-item title">Crm</div>
+                                <div className="project-categories-item title">Healthcare</div>
+                            </div>
+                            <h3 className="healthcare-project-title">Meda</h3>
+                            <p className="healthcare-project-desc">
+                                Interactive & educational application with indoor navigation for a dental clinic. 
+                                Using QR Marke’s customer can get information on doctors. cabinets, teatment, 
+                                care & some useful advice. For the kids department, this will be the same type 
+                                of information but in interactive & funny ways (using colorful animarion).
+                            </p>
+                            <div className="healthcare-project-action d-f">
+                                <h4 className="action-name title">View project</h4>
+                                <a href='' className='action-link'><img src="/images/arrow_icon.png" alt="arrow_icon" /></a>
+                            </div>
+                            <div className="helthcare-projects-control d-f">
+                                <button className='projects-control-btn'><img src="/images/prev.png" alt="prev" /></button>
+                                <button className='projects-control-btn'><img src="/images/next.png" alt="next" /></button>
+                            </div>
+                        </div>
+                        <div><img src="/images/projects1.png" alt="project" /></div>
+                    </div>
+                    <progress max={100} value={40}></progress>
+                </section>
             </div>
+            <Reviews/>
+            <Contact/>
         </>
     )
 }
