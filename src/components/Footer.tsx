@@ -73,7 +73,7 @@ const Footer = () => {
               <li><a href="">Google Cloud</a></li>
               <li><a href="">AWS</a></li>
               <li><a href="">Wordpress</a></li>
-              <li><a href="">Laravel</a></li>
+              <li><Link to="/stack-laravel">Laravel</Link></li>
             </ul>
 
           </li>

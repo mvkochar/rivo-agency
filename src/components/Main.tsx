@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Blog, Career, Contact, ExpertiseHealthcare, Home, Privacy, Project, Projects } from '../pages'
+import { Blog, Career, Contact, ExpertiseHealthcare, Home, Privacy, Project, Projects, StackLaravel } from '../pages'
 
 const Main = () => {
   return (
@@ -35,7 +35,11 @@ const Main = () => {
       />
       <Route
         path='expertise-healthcare'
-        element={<ExpertiseHealthcare/>}
+        element={<ExpertiseHealthcare />}
+      />
+      <Route
+        path='stack-laravel'
+        element={<StackLaravel />}
       />
     </Routes>
   )
